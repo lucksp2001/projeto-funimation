@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div, header, nav, ul, li, article{
+    display: inline-block;
+}
+header{
+    background-color: #41009a;
+    width: calc(100% - 40px);
+    height: 40px;
+    padding: 20px;
+    padding: 0px 20px;
+    padding: 0px 20px 0px 20px;
+    vertical-align: top;
+}
+header .menu{
+    width: calc(100% - 45px);
+}
+header .menu nav{
+    width: 100%;
+}
+
+header .menu nav ul{
+    width: 100%;
+}
+header .menu nav ul li{
+    color: white;
+    vertical-align: top;
+    margin-top: 10px;
+    width: 20%;
+    text-align: right;
+}
+header .logo img{
+    height: 40px;
+    width: 40px;
+    vertical-align: top;
+}
+.banner2{
+    width: calc(100% - 200px);
+    height: 450px;
+    padding: 30px 100px;  
+    top: 20px;
+}
+h1{
+    color: #41009a;
+    margin: 20px 30px;
+}
+.animes article div{
+    display: block;
+    text-align: center;
+}
+.animes article{
+    width: calc(19% - 30px);
+    margin-left: 30px;
+    vertical-align: top;
+    border: 2px solid #41009a;
+}
+article .posters img{
+    height: 200px;
+    width: 100%;
+}
+article .nome_anime{
+    height: 50px;
+    color: #1D2D51;
+    font-weight: bold;
+    padding: 15px;
+}
+article .ep{
+    font-size: 12px;
+    padding: 9px 0px;
+    font-family: initial;
+}
+article .num_ep{
+    color: #41009a;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.buscar_animes{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+}
+.buscar_cor_borda{
+    border: 2px solid #41009a ;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
